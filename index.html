@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <div class="container">
+        <img src="logo.png" alt="" class="logo">
+        <div class="sub-container">
+            <p style="font-size:30px;">QR Code Generator </p>
+            <input type="text" placeholder="Past link" class="text">
+            <button onclick="generateQR()" type="submit">Submit</button>
+            <p id="qr-code">Please Enter Valid URL </p>
+            <img class="qr-code-img" alt="" download>
+
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
